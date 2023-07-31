@@ -1,20 +1,24 @@
 body {
   display: flex;
   flex-direction: column;
-  align-items: stretch;
-  height: 100vh;
-  gap: 50px;
+  font-family: arial;
+  justify-content: space-between;
+  margin: 0;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #1F2937 ;
+  color: white;
+  padding: 10px;
 }
 
 .content {
   display: flex;
   flex-direction: column;
+  gap: 50px;
 }
 
 .footer {
@@ -27,21 +31,25 @@ body {
 ul {
   display: flex;
   list-style-type: none;
-  gap: 10px;
+  gap: 20px;
 }
 
 .welcome-box {
   display: flex;
   padding: 100px;
   align-items: center;
+  background-color: #1F2937 ;
+  color: white;
+  justify-content: space-between;
 }
 
 img {
-  height: 150px;
+  width: 50%;
 }
 
 .beginning {
   padding: 50px;
+
 }
 
 .information {
@@ -64,12 +72,20 @@ img {
 }
 
 .card-image {
-  height: 50px;
-  width: 50px;
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  border-style: solid;
+  border-radius: 10px;
+  margin: 10px;
+  border-color: #3882F6;
 }
 
 .card-text {
   text-align: center;
+  font-size: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .quote-box {
@@ -80,4 +96,67 @@ img {
 .action-box {
   display: flex;
   align-self: center;
+  background-color: #3882F6 ;
+  padding: 30px;
+  margin-bottom: 30px;
+  gap: 20px;
+  width: 800px;
+  height: 50px;
+  justify-content: space-around;
+  color: white;
+  align-items: center;
+}
+
+.awesome {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.awesome-subtext {
+  font-size: 10px;
+  padding-right: 80px;
+  margin-bottom: 30px;
+}
+
+.welcome-sign-up {
+  background-color: #3882F6;
+  border-style: none;
+  border-radius: 10px;
+  padding: 10px;
+  width: 90px;
+  color: white;
+}
+
+.quote-box {
+  background-color: #E5E7EB;
+}
+
+.quote {
+  padding: 120px;
+  font-size: 25px;
+}
+
+.author {
+  align-self: end;
+  margin-right: 30px;
+  font-weight: bold;
+}
+
+.call-to {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.sign-up-text {
+  font-size: 10px;
+}
+
+.sign-up {
+  width: 100px;
+  height: 30px;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: white;
+  background-color: #3882F6;
+  color: white;
 }
